@@ -6,14 +6,14 @@ This repository contains Jupyter notebooks that demonstrate the concepts and imp
 
 ## Notebooks
 
-1. **[VAE](vae/vae.ipynb)**
+1. **[VAE](./vae/VAE.ipynb)**
    
    This notebook explains and implements the Variational Autoencoder (VAE) using PyTorch. It demonstrates how to:
    - Encode data into a probabilistic latent space.
    - Decode latent space representations to reconstruct original inputs.
    - Generate new data by sampling from the latent space.
 
-2. **[CVAE](cvae/cvae.ipynb)**  
+2. **[CVAE](./cvae/CVAE.ipynb)**  
    
    This notebook extends the VAE to Conditional Variational Autoencoders (CVAEs), allowing for conditional generation of data. Key features include:
    - Conditioning the model on class labels to control the output.
