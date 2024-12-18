@@ -1,0 +1,46 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+*.env
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset files
+*.csv
+*.tsv
+*.json
+*.zip
+*.gz
+
+# Ignore model weights and outputs
+*.h5
+*.ckpt
+*.pth
+*.pt
+
+# Ignore temporary and log files
+*.log
+*.tmp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore any local configuration files
+config.yaml
+.env
+# Exclude all folders named "dataset" in subdirectories
+**/dataset/
